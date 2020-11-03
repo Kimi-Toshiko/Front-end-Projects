@@ -65,6 +65,10 @@ main .main-information .qas .qa .question {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer !important;
+}
+main .main-information .qas .qa .question .q-text {
+  cursor: pointer !important;
 }
 main .main-information .qas .qa .question img {
   width: 15px;
